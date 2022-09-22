@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Tetrad
+comment0.text=\n\ Represents\ a\ group\ of\ blocks\ that\ move\ together\ in\ \n\ the\ tetris\ game.\n\n\ @author\ Dawson\ Chen\n\ @version\ 5/18/19\n
+comment1.params=grid\ type
+comment1.target=Tetrad(MyBoundedGrid,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Tetrad\n\ @param\ grid\ is\ the\ grid\ in\ which\ the\ tetrad\ to\ be\ instantiated\ in\n\ @param\ type\ is\ the\ type\ of\ tetrad\n
+comment2.params=gr\ locs
+comment2.target=void\ addToLocations(MyBoundedGrid,\ Location[])
+comment2.text=\n\ Adds\ each\ block\ from\ the\ tetrad\ to\ the\ array\ of\ locations\n\ in\ grid\n\ @param\ gr\ is\ the\ grid\ to\ which\ blocks\ should\ be\ added\n\ @param\ locs\ is\ the\ locations\ in\ grid\ at\ which\ blocks\ must\n\ be\ added\n\ @precondition\ blocks\ are\ not\ in\ any\ grid;\n\ locs.length\ \=\ 4.\n\ @postcondition\ The\ locations\ of\ blocks\ match\ locs,\n\ and\ blocks\ have\ been\ put\ in\ the\ grid.\n
+comment3.params=
+comment3.target=Location[]\ removeBlocks()
+comment3.text=\n\ @precondition\ Blocks\ are\ in\ the\ grid.\n\ @postcondition\ Returns\ old\ locations\ of\ blocks;\n\ blocks\ have\ been\ removed\ from\ grid.\n
+comment4.params=gr\ locs
+comment4.target=boolean\ areEmpty(MyBoundedGrid,\ Location[])
+comment4.text=\n\ @postcondition\ Returns\ true\ if\ each\ of\ locs\ is\ \n\ valid\ and\ empty\ in\ grid;\ false\ otherwise.\n\ @return\ whether\ locs\ is\ valid\ and\ empty\ in\ grid\n
+comment5.params=deltaRow\ deltaCol
+comment5.target=boolean\ translate(int,\ int)
+comment5.text=\n\ @postcondition\ Attempts\ to\ move\ this\ tetrad\ deltaRow\n\ rows\ down\ and\ deltaCol\ columns\ to\ the\n\ right,\ if\ those\ positions\ are\ valid\n\ and\ empty;\ returns\ true\ if\ successful\n\ and\ false\ otherwise.\n\ @param\ deltaRow\ the\ number\ of\ rows\ to\ translate\n\ @param\ deltaCol\ the\ number\ of\ columns\ to\ translate\n\ @return\ whether\ translate\ was\ successful\n
+comment6.params=
+comment6.target=boolean\ rotate()
+comment6.text=\n\ @postcondition\ Attempts\ to\ rotate\ this\ tetrad\n\ clockwise\ by\ 90\ degrees\ about\ its\n\ center,\ if\ the\ necessary\ positions\n\ are\ empty\ \n\ @return\ true\ if\ successful\n\ and\ false\ otherwise.\n
+numComments=7

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=BlockTest
+comment0.text=\n\ The\ test\ class\ BlockTest.\ An\ attempt\ to\ recreate\ GridMonster\ as\ a\ Junit\ based\ tester.\n\ Demonstrates\ a\ sample\ regression\ testing\ harness\ for\ revisions\ of\ Blocks\ code.\n\ Replace\ GridMonster\ with\ this\ file.\n\ \n\ Reference\ information\n\ BlueJ\ Junit\n\ \ \ http\://www.bluej.org/tutorial/testing-tutorial.pdf\n\ \ \ http\://www.bluej.org/papers/2003-06-iticse-unittest.pdf\n\ \ \ \n\ Junit\ reference\ information\n\ \ \ http\://junit.sourceforge.net/javadoc/org/junit/Assert.html\n\ \n\ Use\ of\ @attribute\ in\ Junit\ (not\ employed\ in\ this\ demo)\n\ \ \ \ Flexible,\ Reliable\ Software\:\ Using\ Patterns\ and\ Agile\ Development\n\ \ \ \ \ \ \ By\ Henrik\ B.\ Christensen\n\ \ \ \ \ \ \ see\ pages\ 20\ -\ 21\n\ \ \ \ \ \ \ \n\ Use\ of\ asserts\ -\ only\ to\ explain\ Junit\n\ \ \ http\://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html\n\ \ \ \n\ @author\ \ Anu\ Datar\ with\ inputs\ provided\ by\ Martin\ Baynes\n\ @version\ April\ 22,\ 2015\n
+comment1.params=
+comment1.target=BlockTest()
+comment1.text=\n\ Default\ constructor\ for\ test\ class\ BlockTest\ -\ created\ by\ 'Create\ Test\ Class'\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\n\ Sets\ up\ the\ test\ fixture\ -\ created\ by\ 'Create\ Test\ Class'\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\n\ Tears\ down\ the\ test\ fixture\ -\ created\ by\ 'Create\ Test\ Class'\n\n\ Called\ after\ every\ test\ case\ method.\n
+comment4.params=
+comment4.target=void\ Level1()
+comment4.text=\n\ Test\ method\ -\ A\ sample\ can\ be\ created\ by\ 'Create\ Test\ Method'\n\ Each\ is\ preceded\ by\ the\ attribute\ tag\ @Test\ -\ if\ commented\ out\ will\ not\ appear\ in\ list\ of\ tests,\ \n\ nor\ run\ in\ all\ tests\n
+comment5.params=
+comment5.target=void\ Level1fail()
+comment5.text=\n\ Test\ method\ should\ fail\ on\ correct\ code\ -\ to\ show\ use\ of\ assert\ debugger\ (Test\ Results)\n
+comment6.params=
+comment6.target=void\ testingPreamble()
+comment6.text=\n\ testingPreamble\ -\ student\ instructions\n
+comment7.params=
+comment7.target=void\ Levels()
+comment7.text=\n\ LevelsA\n\ Tests\ levels\ 1\ -\ 4\n\ These\ tests\ are\ independent\ of\ Levels\ 5\ -\ 10\n
+numComments=8
